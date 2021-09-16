@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Alien Invasion</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script async defer src="js/animations.js"></script>
+  </head>
+  <body>
+    <h1>Alien Invasion!</h1>
+    <div id="stage">
+      <div id="alien"></div>
+    </div>
+    <div id="endStage">
+      <div id="alien2"></div>
+      <div id="alien3">
+      </div>
+      <span id="message"></span>
+    </div>
+    <div id="instructions">
+      <h1>HELP THE ALIEN GET TO THE CITY! CHOOSE ONE!</h1>
+      <button id="start" value="play" onclick="startalien()">Option One</button>
+      <button id="trick" value="trick" onclick="trickalien()">Option Two</button>
+      <button id="end" value="end" onclick="endalien()">Option Three</button>
+      <button id="pause" value="pause" onclick="pausealien()">Pause</button>
+      <button id="retry" value="retry" onclick="retryalien()">Retry</button>
+    </div>
+    <div>
+      <h1 id="perInfo">
+      Estevan Cordero
+      HTTP-5105 Animation Assignment
+      </h1>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,272 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #000000;
+}
+/*Fonts*/
+@font-face {
+  font-family: 'ANTICLIMAX';
+  src: url('../fonts/ANTICLIMAX.ttf') format('truetype');
+}
+h1 {
+  font-family: 'ANTICLIMAX';
+  color: #FFFFFF;
+}
+/*alien Design */
+#alien {
+  box-shadow: 0 0 0 1em #a9a9a9, 0 1em 0 1em #a9a9a9, -2.5em 1.5em 0 0.5em #a9a9a9, 2.5em 1.5em 0 0.5em #a9a9a9, -3em -3em 0 0 #a9a9a9, 3em -3em 0 0 #a9a9a9, -2em -2em 0 0 #a9a9a9, 2em -2em 0 0 #a9a9a9, -3em -1em 0 0 #a9a9a9, -2em -1em 0 0 #a9a9a9, 2em -1em 0 0 #a9a9a9, 3em -1em 0 0 #a9a9a9, -4em 0 0 0 #a9a9a9, -3em 0 0 0 #a9a9a9, 3em 0 0 0 #a9a9a9, 4em 0 0 0 #a9a9a9, -5em 1em 0 0 #a9a9a9, -4em 1em 0 0 #a9a9a9, 4em 1em 0 0 #a9a9a9, 5em 1em 0 0 #a9a9a9, -5em 2em 0 0 #a9a9a9, 5em 2em 0 0 #a9a9a9, -5em 3em 0 0 #a9a9a9, -3em 3em 0 0 #a9a9a9, 3em 3em 0 0 #a9a9a9, 5em 3em 0 0 #a9a9a9, -2em 4em 0 0 #a9a9a9, -1em 4em 0 0 #a9a9a9, 1em 4em 0 0 #a9a9a9, 2em 4em 0 0 #a9a9a9;
+  background: #A9A9A9;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  margin: 50px 0 70px 65px;
+  position: relative;
+  left: 5%;
+  top: 3%;
+  animation-play-state: paused;
+}
+#alien2 {
+  box-shadow: 0 0 0 1em #a9a9a9, 0 1em 0 1em #a9a9a9, -2.5em 1.5em 0 0.5em #a9a9a9, 2.5em 1.5em 0 0.5em #a9a9a9, -3em -3em 0 0 #a9a9a9, 3em -3em 0 0 #a9a9a9, -2em -2em 0 0 #a9a9a9, 2em -2em 0 0 #a9a9a9, -3em -1em 0 0 #a9a9a9, -2em -1em 0 0 #a9a9a9, 2em -1em 0 0 #a9a9a9, 3em -1em 0 0 #a9a9a9, -4em 0 0 0 #a9a9a9, -3em 0 0 0 #a9a9a9, 3em 0 0 0 #a9a9a9, 4em 0 0 0 #a9a9a9, -5em 1em 0 0 #a9a9a9, -4em 1em 0 0 #a9a9a9, 4em 1em 0 0 #a9a9a9, 5em 1em 0 0 #a9a9a9, -5em 2em 0 0 #a9a9a9, 5em 2em 0 0 #a9a9a9, -5em 3em 0 0 #a9a9a9, -3em 3em 0 0 #a9a9a9, 3em 3em 0 0 #a9a9a9, 5em 3em 0 0 #a9a9a9, -2em 4em 0 0 #a9a9a9, -1em 4em 0 0 #a9a9a9, 1em 4em 0 0 #a9a9a9, 2em 4em 0 0 #a9a9a9;
+  background: #A9A9A9;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  margin: 50px 0 70px 65px;
+  position: relative;
+  left: 20%;
+  top: -10%;
+  animation-play-state: paused;
+  transform: scale(0.5, 0.5);
+  display: none;
+}
+#alien3 {
+  box-shadow: 0 0 0 1em #a9a9a9, 0 1em 0 1em #a9a9a9, -2.5em 1.5em 0 0.5em #a9a9a9, 2.5em 1.5em 0 0.5em #a9a9a9, -3em -3em 0 0 #a9a9a9, 3em -3em 0 0 #a9a9a9, -2em -2em 0 0 #a9a9a9, 2em -2em 0 0 #a9a9a9, -3em -1em 0 0 #a9a9a9, -2em -1em 0 0 #a9a9a9, 2em -1em 0 0 #a9a9a9, 3em -1em 0 0 #a9a9a9, -4em 0 0 0 #a9a9a9, -3em 0 0 0 #a9a9a9, 3em 0 0 0 #a9a9a9, 4em 0 0 0 #a9a9a9, -5em 1em 0 0 #a9a9a9, -4em 1em 0 0 #a9a9a9, 4em 1em 0 0 #a9a9a9, 5em 1em 0 0 #a9a9a9, -5em 2em 0 0 #a9a9a9, 5em 2em 0 0 #a9a9a9, -5em 3em 0 0 #a9a9a9, -3em 3em 0 0 #a9a9a9, 3em 3em 0 0 #a9a9a9, 5em 3em 0 0 #a9a9a9, -2em 4em 0 0 #a9a9a9, -1em 4em 0 0 #a9a9a9, 1em 4em 0 0 #a9a9a9, 2em 4em 0 0 #a9a9a9;
+  background: #A9A9A9;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  margin: 50px 0 70px 65px;
+  position: relative;
+  left: 45%;
+  top: -10%;
+  animation-play-state: paused;
+  transform: scale(0.5, 0.5);
+  display: none;
+}
+/*--------------------------------------------------------------------------------*/
+/*Call for frame keys animations */
+#alien.animate {
+  animation: alien-move 5s 1;
+  transition: all 10s 10s;
+}
+#alien3.animateSafeEnd {
+  animation: alien-safe 5s 1;
+  transition: all 10s 10s;
+}
+#alien.animateTrick {
+  animation: alien-trick 5s 1;
+  transition: all 10s 10s;
+}
+#alien.animateEnd {
+  animation: alien-end 5s 1;
+  transition: all 10s 10s;
+}
+#alien2.animateEndPart2 {
+  display: block;
+  animation: alien-end2 5s 1;
+  transition: all 10s 10s;
+}
+/*--------------------------------------------------------------------------------*/
+/*Stage Design */
+#stage {
+  height: 500px;
+  border: 1px solid #000;
+  overflow: hidden;
+  background-image: url("https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/62fa98b099d6ddc.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#endStage {
+  height: 300px;
+  width: 500px;
+  border: 1px solid #000;
+  overflow: hidden;
+  animation-play-state: paused;
+  float: right;
+  background-image: url("https://cdna.artstation.com/p/assets/images/images/006/576/974/large/black-duck-overlord-city3.jpg?1499674400");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#instructions {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #000;
+  overflow: hidden;
+  animation-play-state: paused;
+  float: left;
+}
+#message {
+  font-size: 30px;
+  font-family: 'ANTICLIMAX';
+  color: #000000;
+}
+#perInfo {
+  white-space: pre;
+  float: left;
+}
+/*--------------------------------------------------------------------------------*/
+/*Button Desgins */
+#start,
+#trick,
+#end,
+#pause,
+#retry {
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  padding: 10px 0 10px 10px ;
+  background-color: lightgray;
+  text-shadow: -1px -1px #000000, 1px 1px #ffffff;
+  color: gray;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 .2em gray;
+  cursor: pointer;
+}
+/*--------------------------------------------------------------------------------*/
+/* Keyframes animation */
+@keyframes alien-move {
+  0% {
+    left: 5%;
+    top: 3%;
+    transform: skew(20deg);
+  }
+  10% {
+    left: 12%;
+    top: 5%;
+    transform: skew(0deg);
+  }
+  20% {
+    left: 12%;
+    top: 50%;
+  }
+  30% {
+    top: calc(10%);
+    left: calc(30%);
+    transform: skew(-10deg);
+  }
+  35% {
+    top: calc(40%);
+    left: calc(32.5%);
+  }
+  45% {
+    top: 5%;
+  }
+  60% {
+    left: 70%;
+  }
+  70% {
+    top: 60%;
+  }
+  90% {
+    left: 90%;
+    top: -40%;
+  }
+  100% {
+    left: 85%;
+    top: 100%;
+    transform: scale(0.5, 0.5);
+  }
+}
+@keyframes alien-trick {
+  0% {
+    left: 5%;
+    top: 3%;
+  }
+  10% {
+    left: 12%;
+    top: 5%;
+  }
+  20% {
+    left: 12%;
+    top: 50%;
+  }
+  30% {
+    top: calc(10%);
+    left: calc(30%);
+  }
+  35% {
+    top: calc(40%);
+    left: calc(32.5%);
+  }
+  45% {
+    top: 5%;
+    transform: scale(2, 2);
+  }
+  90% {
+    left: 50%;
+    transform: scale(3, 3);
+  }
+  95% {
+    top: 70%;
+    transform: rotate(1080deg);
+  }
+  100% {
+    left: 50%;
+    top: -100%;
+  }
+}
+@keyframes alien-end {
+  0% {
+    left: 5%;
+    top: 3%;
+    transform: skew(20deg);
+  }
+  100% {
+    left: 90%;
+    top: 100%;
+    transform: scale(0.5, 0.5);
+  }
+}
+@keyframes alien-end2 {
+  0% {
+    left: 50%;
+    top: -10%;
+  }
+  20% {
+    left: 40%;
+    top: 10%;
+  }
+  30% {
+    left: -10%;
+    top: 20%;
+  }
+  50% {
+    left: 20%;
+    top: 40%;
+  }
+  70% {
+    transform: scale(0.5, 0.5) rotate(90deg);
+  }
+  100% {
+    top: 100%;
+  }
+}
+@keyframes alien-safe {
+  0% {
+    left: 45%;
+    top: -10%;
+  }
+  100% {
+    left: 65%;
+    top: 100%;
+  }
+}
